@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import axios from "axios";
 
-axios.defaults.baseURL = process.env.REACT_APP_DATA || "http://localhost:3001";
+axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001";
 
 console.log(axios.defaults.baseURL);
 
